@@ -1,0 +1,6 @@
+(module srfi-48
+ (include "srfi-48.scm")
+;(import (write-with-shared-structure srfi-38))
+ (export
+   (format48 . args)
+   ))
